@@ -1,7 +1,10 @@
 # For Interactive Python 
 
 
-## Try these commands at the interactive Python prompt at the terminal
+## Try these commands at the interactive Python prompt at the terminal.
+Run python in the terminal
+
+![image](https://github.com/user-attachments/assets/c42ae306-252c-4e9b-85b9-09d1356ccadb)
 
 ### Positional assignments
 ```
