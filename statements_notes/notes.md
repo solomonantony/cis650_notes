@@ -1,6 +1,6 @@
 # For Interactive Python 
 
-
+To view this document, press Ctrl+Shift+V 
 ## Try these commands at the interactive Python prompt at the terminal.
 Run python in the terminal
 
