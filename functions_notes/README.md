@@ -1,7 +1,7 @@
 # functions_notes
 Function is a device that groups a set of statements so that they can be run more than once in a program.
 
-# for maximizing code reuse,
+# for maximizing code reuse
 
 Functions are the alternative to programming by copy-and-paste — rather than having multiple redundant copies of an operation’s code, we can factor it into a single function.
 
