@@ -1,25 +1,11 @@
-# 5 functions plus main() (function calling other functions)
+# 3 functions plus main() (function calling other functions)
 
-def get_int(prompt):
-    while True:
-        try:
-            input_value = int(input(prompt))
-            return input_value
-        except:
-            print("Error")
-
-def get_float(prompt):
-    while True:
-        try:
-            input_value = float(input(prompt))
-            return input_value
-        except:
-            print("Error")
+from my_functions import *
 
 
 # prompt user for inputs
 def getSalesInfo():
-    count = get_int('Enter # of books: '))
+    count = get_int('Enter # of books: ')
     cost = get_float('Enter cost per book ($): ')
     return count, cost
 
