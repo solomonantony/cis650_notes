@@ -1,0 +1,122 @@
+{"appointments":[
+  {
+    "patient": "Emily Johnson",
+    "appointment_time": "2023-10-05T10:00:00",
+    "reason": "Routine check-up",
+    "dentist_staff": "Dr. Smith"
+  },
+  {
+    "patient": "Emily Johnson",
+    "appointment_time": "2023-11-15T14:30:00",
+    "reason": "Toothache",
+    "dentist_staff": "Dr. Lee"
+  },
+  {
+    "patient": "Michael Chang",
+    "appointment_time": "2023-09-20T11:15:00",
+    "reason": "Teeth cleaning",
+    "dentist_staff": "Dr. Patel"
+  },
+  {
+    "patient": "Michael Chang",
+    "appointment_time": "2023-12-02T09:45:00",
+    "reason": "Cavity filling",
+    "dentist_staff": "Dr. Nguyen"
+  },
+  {
+    "patient": "Sarah Patel",
+    "appointment_time": "2023-08-10T13:00:00",
+    "reason": "Orthodontic consultation",
+    "dentist_staff": "Dr. Garcia"
+  },
+  {
+    "patient": "Sarah Patel",
+    "appointment_time": "2023-11-28T16:20:00",
+    "reason": "Root canal treatment",
+    "dentist_staff": "Dr. Brown"
+  },
+  {
+    "patient": "David Kim",
+    "appointment_time": "2023-10-18T10:30:00",
+    "reason": "Dental filling",
+    "dentist_staff": "Dr. Nguyen"
+  },
+  {
+    "patient": "David Kim",
+    "appointment_time": "2023-12-05T15:45:00",
+    "reason": "Tooth extraction",
+    "dentist_staff": "Dr. Smith"
+  },
+  {
+    "patient": "Maria Rodriguez",
+    "appointment_time": "2023-09-12T09:00:00",
+    "reason": "Emergency dental care (broken tooth)",
+    "dentist_staff": "Dr. Patel"
+  },
+  {
+    "patient": "Maria Rodriguez",
+    "appointment_time": "2023-11-20T11:30:00",
+    "reason": "Teeth whitening",
+    "dentist_staff": "Dr. Lee"
+  },
+  {
+    "patient": "Joshua Lee",
+    "appointment_time": "2023-08-25T14:00:00",
+    "reason": "Consultation for braces",
+    "dentist_staff": "Dr. Nguyen"
+  },
+  {
+    "patient": "Joshua Lee",
+    "appointment_time": "2023-10-30T13:45:00",
+    "reason": "Routine cleaning",
+    "dentist_staff": "Dr. Garcia"
+  },
+  {
+    "patient": "Emma Garcia",
+    "appointment_time": "2023-09-05T16:00:00",
+    "reason": "Dental implant evaluation",
+    "dentist_staff": "Dr. Brown"
+  },
+  {
+    "patient": "Emma Garcia",
+    "appointment_time": "2023-11-10T10:45:00",
+    "reason": "Tooth sensitivity",
+    "dentist_staff": "Dr. Smith"
+  },
+  {
+    "patient": "Jason Nguyen",
+    "appointment_time": "2023-08-15T12:15:00",
+    "reason": "Gum disease treatment",
+    "dentist_staff": "Dr. Lee"
+  },
+  {
+    "patient": "Jason Nguyen",
+    "appointment_time": "2023-10-20T09:30:00",
+    "reason": "Fillings replacement",
+    "dentist_staff": "Dr. Patel"
+  },
+  {
+    "patient": "Olivia Smith",
+    "appointment_time": "2023-09-18T15:30:00",
+    "reason": "Dental crown placement",
+    "dentist_staff": "Dr. Brown"
+  },
+  {
+    "patient": "Olivia Smith",
+    "appointment_time": "2023-11-25T10:00:00",
+    "reason": "Tooth extraction",
+    "dentist_staff": "Dr. Nguyen"
+  },
+  {
+    "patient": "Ethan Brown",
+    "appointment_time": "2023-08-22T11:45:00",
+    "reason": "Emergency dental care (severe pain)",
+    "dentist_staff": "Dr. Garcia"
+  },
+  {
+    "patient": "Ethan Brown",
+    "appointment_time": "2023-12-10T14:45:00",
+    "reason": "Dental bridge consultation",
+    "dentist_staff": "Dr. Smith"
+  }
+]}
