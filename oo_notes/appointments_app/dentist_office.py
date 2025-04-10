@@ -1,5 +1,5 @@
 class DentistOffice:
-    def __init__(self, name='CIS650'):
+    def __init__(self, name):
       self.name = name
       self.patients = []
       self.appointments = []
@@ -7,12 +7,8 @@ class DentistOffice:
     def add_patient(self, patient):
       self.patients.append(patient)
     
-    def add_appointment(self, appointment):
-      self.appointments.append(appointment)
-    
     def find_patient(self, name):
        return next((p for any_patitient in self.patients if p.name == name), None)
-    
     def update_patient(self, old_name, new_name=None, new_address = None, new_history=None):
        patient = self.find_patient(old_name)
        if patient:
@@ -24,16 +20,19 @@ class DentistOffice:
        print(f'Patient {old_name} not found.')
        return False
     
+    def add_appointment(self, appointment):
+      self.appointments.append(appointment)
+
     def cancel_appointment(self, existing_appointment):
        existing_appointment = [appointment for appointment in self.appointments
                                if appointment == existing_appointment]
        existing_appointment.status="Canceled"
     def list_patients(self):
-       return self.patients
+       return [patient.details for patient in self.patients]
     
 
 class Staff:
-    def __init__(self, name, office, position):
+    def __init__(self, name, office:DentistOffice, position):
       self.name = name
       self.office = office
       self.position = position
@@ -59,10 +58,6 @@ class Patient:
     def update(self, newName, newPhone):
         self.name = newName
         self.phone = newPhone
-    
-    def print_details(self):
-       print(f'{self.name}, {self.date_of_birth}')
-
 
     @property
     def details(self):
