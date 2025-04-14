@@ -1,3 +1,5 @@
+import pandas as pd
+import csv
 class DentistOffice:
     def __init__(self, name):
       self.name = name
@@ -34,12 +36,32 @@ class DentistOffice:
        return [patient.details for patient in self.patients]
     def list_appointments(self):
        return [appointment.details for appointment in self.appointments]
-       
-
     def cancel_appointment(self, patient_name):
        appointment = self.find_appointment(patient_name)
        if appointment:
           appointment.status = 'Cancelled'
+    def load_patients_data(self, file_name, file_type):
+      # script to read the data file and load the results to the patients list
+      if file_type == 'csv':
+         with open(file_name) as patients_file:
+            reader = csv.DictReader(patients_file)
+            for record in reader:
+               self.patients.append(record)
+            return self.patients
+      return False
+    def load_appointments(self, file_name, file_type):
+      # script to read the data file and load the results to the appointments list
+      if file_type == 'csv':
+         with open(file_name) as appointments_file:
+            reader = csv.DictReader(appointments_file)
+            for record in reader:
+               self.appointments.append(record)
+            return self.appointments
+      return False
+
+               
+
+   
          
 
       
