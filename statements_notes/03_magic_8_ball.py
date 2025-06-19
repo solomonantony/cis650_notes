@@ -1,4 +1,6 @@
-#Magic ball
+#Magic 8 ball
+# watch https://youtu.be/WSaS17CSS4c?si=yTQ6Wz-Px6rTh5_u
+
 import random
 def getAnswer(answerNumber):
     if answerNumber == 1:
@@ -19,7 +21,7 @@ def getAnswer(answerNumber):
         return 'Outlook not so good'
     elif answerNumber == 9:
         return 'Very doubtful'
-question=  input('What do you want to know about the future?')
+question=  input('What is your Yes or No question? ')
 r = random.randint(1, 9)
 fortune = getAnswer(r)
 print(fortune)

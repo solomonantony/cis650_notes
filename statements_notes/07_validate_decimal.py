@@ -1,6 +1,8 @@
 while True:
     print('Enter your age:')
     age = input()
-    if age.isdecimal(): // string method
+    if age.isdecimal():
         break
-    print('Please enter a number for your age.')
+    else:
+        print('Please enter a number for your age.')
+print(f'The age is {age}')

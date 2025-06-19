@@ -4,4 +4,4 @@ while True:
         if password.isalnum():
             break
         print('Passwords can only have letters and numbers.')
-        
+print(f'The password is {password}')

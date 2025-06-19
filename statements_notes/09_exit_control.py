@@ -1,7 +1,7 @@
 while True:
     print('Type exit to exit.')
     response = input()
-    if response == 'exit':
+    if response.lower() == 'exit':
         break
     else:
         print('Looks like you are in the mood to play..')
