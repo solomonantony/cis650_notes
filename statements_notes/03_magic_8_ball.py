@@ -21,7 +21,7 @@ def getAnswer(answerNumber):
         return 'Outlook not so good'
     elif answerNumber == 9:
         return 'Very doubtful'
-question=  input('What is your Yes or No question? ')
+question=  input('Enter your Yes/No type question: ')
 r = random.randint(1, 9)
 fortune = getAnswer(r)
 print(fortune)
