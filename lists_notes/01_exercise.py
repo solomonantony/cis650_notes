@@ -6,6 +6,6 @@ levels = [301, 201, 151, 101, 51, 0]
 colors = ['Maroon', 'Purple', 'Red', 'Orange', 'Yellow', 'Green']
 concerns = ['Hazardous', 'Very Unhealthy', 'Unhealthy',
             'Unhealthy for Sensitive Groups', 'Moderate', 'Good']
-            
+input('waiting')            
 #Can you write the pseudo code for this problem?
 #Then convert the pseudo code to Python script

@@ -1,5 +1,5 @@
-# For Interactive Python 
-
+# Try these at the Interactive Python 
+https://github.com/solomonantony/cis650_notes
 To view this document, press Ctrl+Shift+V 
 ## Try these commands at the interactive Python prompt at the terminal.
 Run python in the terminal
