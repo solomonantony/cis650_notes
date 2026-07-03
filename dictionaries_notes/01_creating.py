@@ -6,8 +6,9 @@ key and its related value are separated by a colon
 dictionary0 = {}
 print('dictionary0',dictionary0)
 dictionary1 = dict()
+print('dictionary1', dictionary1)
 dictionary2 = dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
-print('dictionary2', )
+print('dictionary2', dictionary2 )
 dictionary3 = dict(sape=4139, guido=4127, jack=4098)
 print('dictionary3', dictionary3)
 country_codes = {'Finland': 'fi', 'South Africa': 'za', 'Nepal': 'np'}

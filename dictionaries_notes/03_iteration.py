@@ -1,4 +1,4 @@
-list1 = ['a', 'a', 'c', 'b']
+list1 = ['a', 'b', 'c', 'd']
 list2 = [1,2,5,7]
 dict1 = dict(zip(list1, list2))
 dict1

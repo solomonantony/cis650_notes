@@ -4,7 +4,7 @@ customer1 = {
     "phone": "555-555-1941",
     "email": "james@xyzinternet.net"
 }
-
+print(customer1)
 customer2 = {
     "name": "Andrea Richards",
     "age": 33,
