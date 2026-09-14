@@ -16,4 +16,4 @@ The dictionary arrangement is more tightly connected (one variable) Related, mai
 Capturing more information is possible with a dictionary of dictionaries
 
 ## How to learn
-Review the numbered .py modules in sequence.  Open and run the module to understand the syntax and logic.
+Review the numbered .py modules in sequence.  Open and run the module to understand the syntax and logic.  Some scripts have prompts for you to respond to. 
