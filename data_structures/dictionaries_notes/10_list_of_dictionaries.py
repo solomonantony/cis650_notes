@@ -4,30 +4,30 @@
 # Current day number
 day = 1
 
-# Sales list of dictionaries
-# sales = [
-#     {
-#         "day": 1,
-#         "coffee_inv": 100,
-#         "advertising": "10",
-#         "temp": 68,
-#         "cups_sold": 16
-#     },
-#     {
-#         "day": 2,
-#         "coffee_inv": 84,
-#         "advertising": "15",
-#         "temp": 72,
-#         "cups_sold": 20
-#     },
-#     {
-#         "day": 3,
-#         "coffee_inv": 64,
-#         "advertising": "5",
-#         "temp": 78,
-#         "cups_sold": 10
-#     },
-# ]
+#Sales list of dictionaries
+sales = [
+    {
+        "day": 1,
+        "coffee_inv": 100,
+        "advertising": "10",
+        "temp": 68,
+        "cups_sold": 16
+    },
+    {
+        "day": 2,
+        "coffee_inv": 84,
+        "advertising": "15",
+        "temp": 72,
+        "cups_sold": 20
+    },
+    {
+        "day": 3,
+        "coffee_inv": 64,
+        "advertising": "5",
+        "temp": 78,
+        "cups_sold": 10
+    },
+]
 
 # Create an empty sales list
 sales = []

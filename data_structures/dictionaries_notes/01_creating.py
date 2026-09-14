@@ -7,10 +7,10 @@ dictionary0 = {}
 print('dictionary0',dictionary0)
 dictionary1 = dict()
 print('dictionary1', dictionary1)
-dictionary2 = dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
+dictionary2 = dict([('sape', 4139), ('guido', 4127), ('jack', 4098), ('jill', 8272)])
 print('dictionary2', dictionary2 )
 #1write a  statement to create a non-empy dictionary using the dict function
-dictionary3 = dict(sape=4139, guido=4127, jack=4098)
+dictionary3 = dict(sape=4139, guido=4127, jack=4098, jill=8272)
 print('dictionary3', dictionary3)
 country_codes = {'Finland': 'fi', 'South Africa': 'za', 'Nepal': 'np'}
 print('country_codes', country_codes)
@@ -22,8 +22,9 @@ items from the second list become the corresponding values
 """
 names = ['bob', 'ken', 'ron']
 grades = [98, 76, 80]
-studentGrades = dict(zip(names, grades))
-print("studentGrades",studentGrades)
+student_grades = dict(zip(names, grades))
+print(student_grades['ron'])
+print("student_grades",student_grades)
 #2 rewrite a  statement to create a non-empy dictionary using the dict nad zip function 
 """
 Dictionary Comprehensions

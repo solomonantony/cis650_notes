@@ -12,4 +12,11 @@ customer2 = {
     "email": "andrea@coffeeloversunite.us"
 }
 # Create another customer with some madeup info
+customer3 = {
+    "name": "Solomon",
+    "age": 60,
+    "phone": "6211",
+    "email": "santony@murraystate.edu"
+}
 print(customer1["name"])
+print(customer3)

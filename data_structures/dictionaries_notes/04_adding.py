@@ -7,7 +7,7 @@ days_per_month['January']
 
 #Updating the Value of an Existing Key–Value Pair
 days_per_month['February'] = 29
-
+print(days_per_month['April'])
 #Adding a New Key–Value Pair
 days_per_month['April'] = 30
 days_per_month
