@@ -11,5 +11,5 @@ customer2 = {
     "phone": "555-555-4928",
     "email": "andrea@coffeeloversunite.us"
 }
-
+# Create another customer with some madeup info
 print(customer1["name"])
