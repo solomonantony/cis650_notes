@@ -6,3 +6,6 @@ print("Index of 3:", nums.index(3))
 print("Max:", max(nums))
 print("Min:", min(nums))
 print("Sorted (as list):", sorted(nums))
+
+letters = ('a', 'x', 'bb', 'ac', 'de', 'po')
+print(max(letters)) 

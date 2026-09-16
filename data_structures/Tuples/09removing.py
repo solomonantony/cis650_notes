@@ -1,5 +1,5 @@
 numbers = (1, 2, 3, 4, 5)
-
+print(dir(numbers))
 # Convert to list, remove, convert back
 numbers_list = list(numbers)
 numbers_list.remove(3)

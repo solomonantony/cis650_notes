@@ -17,5 +17,5 @@ list_of_sets[0].add("mango")
 print("\nAfter adding 'mango' to the first set:", list_of_sets[0])
 
 # Performing operations across sets
-union_of_all = set().union(*list_of_sets)  # Union of all sets in the list
+union_of_all = set().union(*list_of_sets)  # Union of all sets in the list; * unpacks list_of_sets
 print("\nUnion of all sets:", union_of_all)
