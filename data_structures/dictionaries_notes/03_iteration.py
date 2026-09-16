@@ -7,4 +7,5 @@ for k in dict1:  #when we don't know  the key labels
 
 for key, value in dict1.items(): #when we don't know  the key labels
   print('key:', key, 'value: ', value)
-   
+  dict1[key] = value**2
+print(dict1)   

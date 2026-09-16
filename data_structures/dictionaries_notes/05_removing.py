@@ -9,9 +9,9 @@ else:
   print('April not in the dictionary')
 
 #Remove an entry and show what it is using pop
-days_per_month.pop('January')
+january_days = days_per_month.pop('January')
 print(days_per_month)
-
+print('january days:', january_days)
 if 'January' in days_per_month:
   print(days_per_month['January'])
 else:
