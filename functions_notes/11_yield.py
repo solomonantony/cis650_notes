@@ -5,5 +5,5 @@ def squares(x):
 
 print(squares(5))
 for i in squares(5):
-  print(f'i = {i}')
+   print(f'i = {i}')
   
