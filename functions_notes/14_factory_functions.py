@@ -1,3 +1,4 @@
+# A factory function is a function whose job is to build and return other functions.
 def maker(n):
   def action(x):
     return x*n
@@ -7,7 +8,7 @@ def maker(n):
     return action
   else:
     return reaction
-f1 = maker(2)
+f1 = maker(2) 
 print (f1)
 print (f1(3))
 f2 = maker(4)
