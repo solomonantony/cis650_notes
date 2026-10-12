@@ -1,4 +1,4 @@
-# simulate 600 rolls of a die and compute frequencies
+# simulate 6000 rolls of a die and compute frequencies
 frequencies = [0, 0, 0, 0, 0, 0]
 import random
 for i in range(6000):
