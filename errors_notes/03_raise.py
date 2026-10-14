@@ -2,7 +2,7 @@ while True:
     try:
         input_value = float(input('Enter a positve number: '))
         if input_value < 0:
-            raise
+            raise ValueError
         reciprocal = 1 / input_value
         break
     except:
