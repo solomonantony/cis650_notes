@@ -14,7 +14,7 @@ def create_sqlite_database(filename):
             conn.close()
 
 if __name__ == '__main__':
-    create_sqlite_database("my.db")
+    create_sqlite_database("database_notes/my.db")
     #use the os package to verify that my.db file has been created <====  TO DO
     files_list = os.listdir()
     if 'my.db' in files_list:
