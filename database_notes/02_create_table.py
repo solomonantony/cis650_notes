@@ -20,7 +20,7 @@ insert_sql_statement = """
     values(?,?)
 """
 try: 
-    new_country = ('Japan' )
+    new_country = ('Japan', 'Asia' )
     cursor.execute(insert_sql_statement, new_country)
     connection.commit()
 except sqlite3.Error as e:
