@@ -11,13 +11,13 @@ print(data)
 for k, v in data.items():
   print(f'{k}: {v}')
 
-j7e = '343'
-xyz = "https://omdbapi.com/"
-xyz += "?apikey=" +j7e
-xyz += "?y=" + '1995'
-juro = requests.get(xyz)
-umwy = response.json()
-print(umwy)
-for x, z3 in umwy.items():
-  print(f'{x}: {z3}')
+# j7e = '343'
+# xyz = "https://omdbapi.com/"
+# xyz += "?apikey=" +j7e
+# xyz += "?y=" + '1995'
+# juro = requests.get(xyz)
+# umwy = response.json()
+# print(umwy)
+# for x, z3 in umwy.items():
+#   print(f'{x}: {z3}')
 
