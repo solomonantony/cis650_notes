@@ -1,6 +1,11 @@
-# you can iterate through the characters in a string using the for loop.  Run this code to see the result
-string1 = "abcdefghijkl"
-i=0
-for c in string1:
-  print (c,i)
-  i += 1
+alphabets='abcdefghijklmnopqrstuvwxyz'
+while True:
+    user_entry = input('Enter a letter (or blank to exit): ')
+    if user_entry == '':
+        break
+    else:
+        position = alphabets.find(user_entry)
+        print(f'{user_entry} is at position {position}')
+
+
+

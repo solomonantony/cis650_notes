@@ -3,15 +3,14 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-file_path = "List of S&P 500 companies - Wikipedia.html"
-f = open(file_path, 'r')
-page = f.read()
-#page = requests.get(url)
-dfs = pd.read_html(page.content)
+response = requests.get(url)
+print(response.text)
+#dfs = pd.read_html(response.text)
 
-# import urllib.request
-# with urllib.request.urlopen(url) as response:
-#    page = response.read().decode()
+import urllib.request
+with urllib.request.urlopen(url) as response:
+   page = response.read().decode()
+print(page.text)
 # dfs = pd.read_html(page)
 # print("There are ", len(dfs), " data frames in the web page")
 # dfs[0].to_csv('sp500-b.csv')
